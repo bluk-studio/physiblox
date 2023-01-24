@@ -1,0 +1,6 @@
+name: PhysiBlox
+main: org.bluk.physics.Plugin
+api-version: 1.16
+version: "${version}"
+author: "Bluk Studio"
+description: "A physics plugin for Minecraft."

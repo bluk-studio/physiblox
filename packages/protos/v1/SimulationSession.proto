@@ -1,0 +1,30 @@
+syntax = "proto3";
+package protos;
+
+option java_multiple_files = true;
+
+service SimulationSession {
+    rpc Open (OpenSessionRequest) returns (OpenSessionResponse) {}
+    rpc Close (CloseSessionRequest) returns (Empty) {}
+}
+
+// Open Session
+// >request
+message OpenSessionRequest {
+    string uuid = 1;
+};
+
+// >response
+message OpenSessionResponse {
+    bool isOpened = 1;
+};
+
+// Close Session
+// >request
+message CloseSessionRequest {
+    string uuid = 1;
+};
+
+// todo move them to separate file
+// Utils
+message Empty {};

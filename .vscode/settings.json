@@ -1,0 +1,6 @@
+{
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "yaml.schemas": {
+        "https://json.schemastore.org/bukkit-plugin.json": "file:///mnt/odzi%20dog/bluk/physiblox/packages/runtime-java/src/main/resources/plugin.yml"
+    }
+}

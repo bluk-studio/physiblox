@@ -1,0 +1,12 @@
+{
+  "plugins": ["@nxrs/cargo", "@jnxplus/nx-boot-gradle"],
+  "tasksRunnerOptions": {
+    "default": {
+      "runner": "nx/tasks-runners/default",
+      "options": {
+        "cacheableOperations": ["build", "lint", "test", "e2e"]
+      }
+    }
+  },
+  "extends": "nx/presets/npm.json"
+}

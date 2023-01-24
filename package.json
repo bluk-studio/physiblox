@@ -1,0 +1,17 @@
+{
+  "name": "physiblox",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {},
+  "private": true,
+  "devDependencies": {
+    "@jnxplus/nx-boot-gradle": "^5.0.0",
+    "@nrwl/workspace": "^15.6.0",
+    "@nxrs/cargo": "^0.3.3",
+    "nx": "15.5.2",
+    "prettier": "^2.6.2"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
