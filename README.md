@@ -4,16 +4,4 @@ This repository contains all source code for PhysiBlox Minecraft plugin. This pl
 
 # Todo
 
-- [ ] Complete **SimulationSession** and **SimulationRuntime** RPC services.
-- [ ] Implement RPC services in engine package
-- [ ] Add plugin configuration
-  - [ ] Field "engine-url" to specify self-hosted or cloud-hosted engine API url
-- [ ] Implement "physic cubes" idea in plugin
-  > In brief, "physic cubes" is admin-defined cuboid regions where physics simulation will run. So, this plugin will not be able to simulate physics in whole minecraft world *(for now, at least)*
-  - [ ] Add command to create physic cubes
-  - [ ] Command: list physic cubes
-  - [ ] Command: modify physic cubes
-    - [ ] Modificator: gravity
-  - [ ] Command: delete physic cubes
-
-> That's enough to start with, I think.
+- [ ] Release a MVP version of this plugin
